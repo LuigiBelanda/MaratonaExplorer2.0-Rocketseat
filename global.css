@@ -1,0 +1,23 @@
+/* reset de medidas css */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    /* variáveis */
+    --bg-color: #edf2ff;
+    --text-color: #00082f;
+}
+
+body.dark {
+    --bg-color: #00082f;
+    --text-color: #ffffff;
+}
